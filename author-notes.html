@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>作者的碎碎念 | PolyChat</title>
+    <meta
+      name="description"
+      content="PolyChat 作者的碎碎念：项目缘起、命名由来与一只叫吴蛋蛋的金丝熊。"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="./index.html">PolyChat</a>
+        <nav>
+          <a href="./index.html">首页</a>
+          <a href="./author-notes.html" aria-current="page">作者的碎碎念</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container author-notes">
+          <p class="eyebrow">Author Notes</p>
+          <h1>作者的碎碎念</h1>
+          <div class="author-notes-content">
+            <p>非常感谢每一位使用 PolyChat 的朋友。</p>
+            <p>
+              这是我通过 Vibe Coding做出来的第一个产品。它可能还不够成熟，但已经是我能拿出的最真诚的版本。项目已经开源在
+              GitHub，如果你感兴趣，欢迎随时来提 Issue，或者一起把它变得更好。
+            </p>
+            <p>关于「PolyChat」这个名字，其实藏着两层小巧思。</p>
+            <p>
+              第一层很简单：Poly 是“多”的意思。就像这个产品想做的——让你能同时和多个 AI 对话，在不一样的回答里碰撞出更多想法。
+            </p>
+            <p>
+              而另一层，要提到我家的小家伙：一只叫吴蛋蛋的金丝熊。它是一只巧波（有着漂亮波利纹路的金丝熊），而 Poly，恰好也是「波利」的音译。所以
+              PolyChat 的图标是一只探出头的小金丝熊——那就是蛋蛋平时东张西望的样子。
+            </p>
+            <p>
+              金丝熊的寿命很短，只有两三年。但我想，PolyChat 或许能成为蛋蛋生命的另一种延伸。每当你打开应用，看到那只探头探脑的鼠鼠，蛋蛋就以这种方式，在数字世界里继续陪伴着大家。
+            </p>
+            <p>希望各位能够喜欢这个工具。</p>
+          </div>
+        </div>
+      </section>
+      <section class="section section-alt">
+        <div class="container dandan-gallery">
+          <div class="dandan-grid">
+            <figure class="dandan-card">
+              <img src="./dandan/dandan1.jpg" alt="吴蛋蛋照片1" loading="lazy" />
+            </figure>
+            <figure class="dandan-card">
+              <img src="./dandan/dandan2.jpg" alt="吴蛋蛋照片2" loading="lazy" />
+            </figure>
+            <figure class="dandan-card">
+              <img src="./dandan/dandan3.jpg" alt="吴蛋蛋照片3" loading="lazy" />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> PolyChat</p>
+        <nav>
+          <a href="#">隐私说明</a>
+          <a href="#">使用说明</a>
+          <a href="#">更新日志</a>
+          <a href="#">问题反馈</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
