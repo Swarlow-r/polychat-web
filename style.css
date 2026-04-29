@@ -132,6 +132,24 @@ h1 {
   background: linear-gradient(135deg, var(--brand), var(--brand-strong));
 }
 
+.btn-github {
+  color: #fff;
+  background: #24292f;
+  border-color: #24292f;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-github:hover {
+  background: #32383f;
+  border-color: #32383f;
+}
+
+.btn-nav {
+  min-height: 36px;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
 .btn-ghost {
   border-color: var(--line);
   background: var(--surface);
