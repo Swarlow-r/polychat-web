@@ -53,8 +53,21 @@ a {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 800;
+  font-size: 24px;
+  line-height: 1;
   letter-spacing: 0.3px;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
 }
 
 .nav nav {
