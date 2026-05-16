@@ -54,7 +54,7 @@
           基于你已登录的AI网站工作，不代登录，安装即用。
         </p>
         <div class="cta-row">
-          <a class="btn btn-primary install-btn" href="#">立即安装 Chrome 扩展</a>
+          <a class="btn btn-primary install-btn" href="https://chromewebstore.google.com/detail/polychat/nldhffkcocnjhokicpdobjgbgacngfbm" target="_blank" rel="noopener noreferrer">立即安装 Chrome 扩展</a>
           <a
             class="btn btn-github"
             href="https://github.com/Swarlow-r/PolyChat"
@@ -141,7 +141,7 @@
           <h2>把"各家之言"，变成"一份可靠的参考"</h2>
           <p>——（本文由PolyChat集众AI之智慧辅助生成）</p>
           <div class="cta-row">
-            <a class="btn btn-primary install-btn" href="#">立即安装</a>
+            <a class="btn btn-primary install-btn" href="https://chromewebstore.google.com/detail/polychat/nldhffkcocnjhokicpdobjgbgacngfbm" target="_blank" rel="noopener noreferrer">立即安装</a>
           </div>
         </div>
       </section>
@@ -151,9 +151,13 @@
       <div class="container footer-wrap">
         <p>© <span id="year"></span> PolyChat</p>
         <nav>
-          <a href="#">隐私说明</a>
+          <a
+            href="https://swarlow-r.github.io/polychat-privacy/privacy.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >隐私说明</a
+          >
           <a href="#">使用说明</a>
-          <a href="#">更新日志</a>
           <a href="#">问题反馈</a>
         </nav>
       </div>
@@ -161,12 +165,6 @@
 
     <script>
       document.getElementById("year").textContent = String(new Date().getFullYear());
-      document.querySelectorAll(".install-btn").forEach((button) => {
-        button.addEventListener("click", (event) => {
-          event.preventDefault();
-          alert("产品将在近期上架浏览器商店哦");
-        });
-      });
     </script>
   </body>
 </html>
